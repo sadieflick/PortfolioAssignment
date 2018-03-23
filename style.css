@@ -1,0 +1,137 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+a {
+    color: black;
+}
+.small {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: 15px;
+}
+#headshot {
+    border-width: 5px;
+    border-color: darkgrey;
+    border-style: solid;
+    vertical-align: top;
+}
+.bodypic {
+    width: 285px;
+}
+
+.alignleft {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-weight: bold;
+    font-size: 16pt;
+    display: inline-block;
+    padding: 5px 260px 5px 5px;
+}
+.alignright {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+	display: inline-block;
+    padding: 5px 5px 5px 260px;
+}
+
+.grey_tab {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    background: linear-gradient(#cccccc, #999999, #cccccc);
+    display: block;
+}
+
+#wrapper{
+ width: 950px;
+ background: radial-gradient(rosybrown, rosybrown, black);
+ margin: 0px auto;
+}
+#header{
+ height: 50px;
+ background-color:  white;
+}
+#body_block {
+    padding: 0;
+    margin:20px;
+    /*background-color: black;*/
+    overflow: hidden;
+}
+#top_block{
+ height: 300px;
+ margin: 0px;
+ padding: 0px;
+}
+.top_content{
+ height: 272px;
+ width: 480px;
+ margin: 0px 0px 0px 15px;
+ padding: 0px;
+ background-color: white;
+ display: inline-block;
+}
+#main_content{
+    
+    margin: 0px;
+    padding: 0px;
+
+}
+.panel{
+    display: inline-block;
+}
+.subcontents{
+ width: 285px;
+ height: 400px;
+ margin: 0px 7px;
+ display: block;
+ background: white;
+ overflow: hidden;
+}
+.technologies{
+ width: 285px;
+ height: 200px;
+ margin: 0px 7px;
+ display: block;
+ background: white;
+ overflow: hidden;
+ vertical-align: top;
+} 
+.tech_box {
+    padding: 7px
+}
+.tech_badge {
+    width: 40px;
+    display: inline-block;
+    padding: 5px;
+}
+.green_button {
+    display: block;
+    background-color: darkgreen;
+    border-width: 1px;
+    border-color: black;
+    color: white;
+    padding: 6px;
+    border-radius: 7px;
+    margin: 0px auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5), 0 3px 10px 0 rgba(0,0,0,0.5);
+
+}
+#footer{
+ height: 50px;
+ background-color:  white;
+ display: block;
+ text-align: center;
+}
+#footer a {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#footer img {
+    width: 20px;
+}
